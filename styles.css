@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #213555;
+    --secondary-color: #4F709C;
+    --accent-color: #D8C4B6;
+    --background-color: #F5EFE7;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+  }
+  
+  .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    background-color: var(--background-color);
+  }
+
+  .navbar-brand img{
+    width: 100px;
+    height: 100px;
+
+  }
+  
+  .jumbotron {
+    background-color: var(--secondary-color);
+  }
+
+  .card source ,img{
+    width: 800px;
+    height: 450px;
+  }
+
+
+  
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+
+  .btn {
+    background-color: var(--primary add-color);
+    color: #fff;
+  }
+  
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px 16px;
+    z-index: 1000;
+  }
+  
+  .skip-link:focus {
+    top: 0;
+  }
+  
